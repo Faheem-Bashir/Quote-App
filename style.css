@@ -1,0 +1,102 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+    }
+    html, body{
+        background-color: #161b33;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        width: 100%;
+        min-width: 300px;
+        touch-action: manipulation;
+        flex-direction: column;
+        height: 100%;
+        }
+    .container{
+        width: 100%;
+        max-width: 600px;
+        background-color: white;
+        height: auto;
+        border-radius: 10px;
+        padding: 2rem;
+        text-align: center;
+        margin-top: 4rem;
+
+    }
+    .container h2{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    hr{
+        width: 50px;
+        margin: .4rem auto 1rem;
+    border: none;
+    border-top: 3px solid rgb(14, 152, 243);
+    ;
+    }
+    blockquote{
+        font-size: 1.2rem;
+    }
+    blockquote::before,blockquote::after{
+        content: '" ';
+        font-style: italic;
+    }
+    .author-name{
+    text-align: end;
+    margin: 1rem 0rem;
+    }
+    .author-name::before{
+        content: "";
+        height: 2px;
+        width: 25px;
+        background-color: rgb(14, 152, 243);
+        position: absolute;
+        margin-top: 12px;
+        margin-left: -30px;  
+    }
+
+    .quote,.post{
+        padding: .8rem 2rem;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        border-radius: 50px;
+        color: black;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1rem;
+
+    }
+    .quote{
+        background-color: rgb(14, 152, 243);
+        color: white;
+        margin-bottom: 1rem;
+        margin-right: 5px;
+    }
+    .post{
+        background-color: transparent;
+        border: 1px solid rgb(14, 152, 243);
+    }
+    .x{
+        font-size: 1rem;
+        margin-right: 5px;
+        text-align: center;
+    }
+    footer{
+        margin: 1rem ;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+    } 
+
+
